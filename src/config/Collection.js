@@ -1,0 +1,25 @@
+const Collection = {
+    All_Product:"All_Product",
+    Category:"Category",
+    Flavour:"Flavour-List",
+    Slider:"Slider",
+    Weight:"Weight",
+    Setting:"Setting",
+    Contact_Inquiry:"Contact_Inquiry",
+    Admin_Login:"Admin_Login",
+    Employee_List:"Employee_List",
+    Registered_User_List:"Registered_User_List",
+    Coupon:"Coupon",
+    AddToCart:"AddToCart",
+    ShopByGoal:"ShopByGoal",
+    UserLogin:"UserLogin",
+    UserLoginWithFacebook:"UserLoginWithFacebook",
+    Wishlist:"Wishlist",
+    Combo_Products:"ComboProducts",
+    DiscountUnderTime:"FlashSale",
+    PaymentUser:"PaymentUser",
+    ReviewUser:"ReviewUser",
+    TrandingProduct:"TrandingProduct",
+}
+
+module.exports = Collection;
