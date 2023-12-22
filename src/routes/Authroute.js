@@ -9,7 +9,6 @@ const { addSlider, sliderShow, sliderDelete, slider_update } = require('../contr
 const { addFlavour, deleteFlavour, updateFlavour, allFlavour } = require('../controller/productManagement/flavourlist_collection');
 const { addWeight, deleteWeight, updateWeight, allWeight } = require('../controller/productManagement/weigth_colection');
 const { addSetting, updateSetting, settingShow } = require('../controller/settingManagement/setting_collection');
-const { addContactInquiry, deleteContactInquiry, allContactInquiry } = require('../controller/inquiryManagement/Contact_Inquiry_collection');
 const { adminLogin, adminSignup } = require('../controller/adminLoginPart/Admin_Login_collection');
 const { addEmployee, updateEmployee, allEmployee } = require('../controller/userManagement/employ_collection');
 const { addRegisteredUser, allRegisteredUser } = require('../controller/userManagement/registereduserlist_collection');
@@ -112,9 +111,9 @@ productrouter.get("/allSetting", settingShow)
 
 // contact inquiry
 
-productrouter.post('/addContactInquiry', addContactInquiry)
-productrouter.delete("/deleteContactInquiry/:contactInquiry_id", deleteContactInquiry)
-productrouter.get("/allContactInquiry", allContactInquiry)
+  // productrouter.post('/addContactInquiry', addContactInquiry)
+  // productrouter.delete("/deleteContactInquiry/:contactInquiry_id", deleteContactInquiry)
+  // productrouter.get("/allContactInquiry", allContactInquiry)
 
 // employee 
 
